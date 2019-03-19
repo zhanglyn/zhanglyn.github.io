@@ -6,15 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Tag: Redis | xxxpluto_</title>
+  <title>RSA生成秘钥对&amp;加解密&amp;加签验签 | xxxpluto_</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="xxxpluto_">
-<meta property="og:url" content="http://yoursite.com/tags/Redis/index.html">
+  <meta name="description" content="RSA加密简介 RSA加密是一种非对称加密。可以在不直接传递密钥的情况下，完成解密。这能够确保信息的安全性，避免了直接传递密钥所造成的被破解的风险。是由一对密钥来进行加解密的过程，分别称为公钥和私钥。两者之间有数学相关，该加密算法的原理就是对一极大整数做因数分解的困难性来保证安全性。通常个人保存私钥，公钥是公开的（可能同时多人持有）。    RSA概括公钥加密、私钥解密、私钥签名、公钥验签。">
+<meta name="keywords" content="RSA">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RSA生成秘钥对&amp;加解密&amp;加签验签">
+<meta property="og:url" content="http://yoursite.com/2019/03/19/RSA/index.html">
 <meta property="og:site_name" content="xxxpluto_">
+<meta property="og:description" content="RSA加密简介 RSA加密是一种非对称加密。可以在不直接传递密钥的情况下，完成解密。这能够确保信息的安全性，避免了直接传递密钥所造成的被破解的风险。是由一对密钥来进行加解密的过程，分别称为公钥和私钥。两者之间有数学相关，该加密算法的原理就是对一极大整数做因数分解的困难性来保证安全性。通常个人保存私钥，公钥是公开的（可能同时多人持有）。    RSA概括公钥加密、私钥解密、私钥签名、公钥验签。">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-03-19T03:47:58.509Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="xxxpluto_">
+<meta name="twitter:title" content="RSA生成秘钥对&amp;加解密&amp;加签验签">
+<meta name="twitter:description" content="RSA加密简介 RSA加密是一种非对称加密。可以在不直接传递密钥的情况下，完成解密。这能够确保信息的安全性，避免了直接传递密钥所造成的被破解的风险。是由一对密钥来进行加解密的过程，分别称为公钥和私钥。两者之间有数学相关，该加密算法的原理就是对一极大整数做因数分解的困难性来保证安全性。通常个人保存私钥，公钥是公开的（可能同时多人持有）。    RSA概括公钥加密、私钥解密、私钥签名、公钥验签。">
   
     <link rel="alternative" href="/atom.xml" title="xxxpluto_" type="application/atom+xml">
   
@@ -142,60 +147,193 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-RSA" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/10/30/RedisPubSub/" class="archive-article-date">
-  	<time datetime="2018-10-30T02:15:21.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-10-30</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/10/30/RedisPubSub/">RedisPubSub</a>
+    <h1 class="article-title" itemprop="name">
+      RSA生成秘钥对&amp;加解密&amp;加签验签
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2019/03/19/RSA/" class="archive-article-date">
+  	<time datetime="2019-03-19T03:11:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-19</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="RSA加密简介"><a href="#RSA加密简介" class="headerlink" title="RSA加密简介"></a><strong>RSA加密简介</strong></h2><ul>
+<li>RSA加密是一种非对称加密。可以在不直接传递密钥的情况下，完成解密。这能够确保信息的安全性，避免了直接传递密钥所造成的被破解的风险。是由一对密钥来进行加解密的过程，分别称为公钥和私钥。两者之间有数学相关，该加密算法的原理就是对一极大整数做因数分解的困难性来保证安全性。通常个人保存私钥，公钥是公开的（可能同时多人持有）。 </li>
+</ul>
+<hr>
+<h4 id="RSA概括"><a href="#RSA概括" class="headerlink" title="RSA概括"></a>RSA概括</h4><p><strong>公钥加密、私钥解密、私钥签名、公钥验签。</strong> </p>
+<hr>
+<h4 id="GO语言生成RSA秘钥对"><a href="#GO语言生成RSA秘钥对" class="headerlink" title="GO语言生成RSA秘钥对"></a>GO语言生成RSA秘钥对</h4><p><u>生成秘钥对供JAVA对接，因此使用x509.MarshalPKCS8PrivateKey方法生成PKCS#8字节的秘钥</u></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br></pre></td><td class="code"><pre><span class="line">package main</span><br><span class="line"></span><br><span class="line">import (</span><br><span class="line"></span><br><span class="line">    &quot;crypto/rand&quot;</span><br><span class="line"></span><br><span class="line">    &quot;crypto/rsa&quot;</span><br><span class="line"></span><br><span class="line">    &quot;crypto/x509&quot;</span><br><span class="line"></span><br><span class="line">    &quot;encoding/pem&quot;</span><br><span class="line"></span><br><span class="line">    &quot;os&quot;</span><br><span class="line"></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">func main() &#123;</span><br><span class="line"></span><br><span class="line">    //rsa 密钥文件产生</span><br><span class="line"></span><br><span class="line">    GenRsaKey(1024)</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">func GenRsaKey(bits int) error &#123;</span><br><span class="line"></span><br><span class="line">    // 生成私钥文件</span><br><span class="line"></span><br><span class="line">    privateKey, err := rsa.GenerateKey(rand.Reader, bits)</span><br><span class="line"></span><br><span class="line">    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">        return err</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    derStream, _ := x509.MarshalPKCS8PrivateKey(privateKey)</span><br><span class="line"></span><br><span class="line">    block := &amp;pem.Block&#123;</span><br><span class="line"></span><br><span class="line">        Type:  &quot;RSA PRIVATE KEY&quot;,</span><br><span class="line"></span><br><span class="line">        Bytes: derStream,</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    file, err := os.Create(&quot;private.pem&quot;)</span><br><span class="line"></span><br><span class="line">    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">        return err</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    err = pem.Encode(file, block)</span><br><span class="line"></span><br><span class="line">    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">        return err</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    // 生成公钥文件</span><br><span class="line"></span><br><span class="line">    publicKey := &amp;privateKey.PublicKey</span><br><span class="line"></span><br><span class="line">    derPkix, err := x509.MarshalPKIXPublicKey(publicKey)</span><br><span class="line"></span><br><span class="line">    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">        return err</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    block = &amp;pem.Block&#123;</span><br><span class="line"></span><br><span class="line">        Type:  &quot;PUBLIC KEY&quot;,</span><br><span class="line"></span><br><span class="line">        Bytes: derPkix,</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    file, err = os.Create(&quot;public.pem&quot;)</span><br><span class="line"></span><br><span class="line">    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">        return err</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    err = pem.Encode(file, block)</span><br><span class="line"></span><br><span class="line">    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">        return err</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    return nil</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="GO语言RSA加解密"><a href="#GO语言RSA加解密" class="headerlink" title="GO语言RSA加解密"></a>GO语言RSA加解密</h2><ul>
+<li><h5 id="公钥加密（分段）："><a href="#公钥加密（分段）：" class="headerlink" title="公钥加密（分段）："></a>公钥加密（分段）：</h5></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br></pre></td><td class="code"><pre><span class="line">// RSAEncrypt 解析公钥</span><br><span class="line"></span><br><span class="line">func RSAEncrypt(origData []byte) ([]byte, error) &#123;</span><br><span class="line"></span><br><span class="line">    //解密pem格式的公钥</span><br><span class="line"></span><br><span class="line">    block, _ := pem.Decode(publicKey)</span><br><span class="line"></span><br><span class="line">    if block == nil &#123;</span><br><span class="line"></span><br><span class="line">        return nil, errors.New(&quot;public key error&quot;)</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    // 解析公钥</span><br><span class="line"></span><br><span class="line">    pubInterface, err := x509.ParsePKIXPublicKey(block.Bytes)</span><br><span class="line"></span><br><span class="line">    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">        return nil, err</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    // 类型断言</span><br><span class="line"></span><br><span class="line">    pub := pubInterface.(*rsa.PublicKey)</span><br><span class="line"></span><br><span class="line">    //加密</span><br><span class="line"></span><br><span class="line">    return rsaEncrypt(pub, string(origData))</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">// rsaEncrypt 数据加密</span><br><span class="line"></span><br><span class="line">func rsaEncrypt(pub *rsa.PublicKey, data string) ([]byte, error) &#123;</span><br><span class="line"></span><br><span class="line">    partLen := pub.N.BitLen()/8 - 11</span><br><span class="line"></span><br><span class="line">    chunks := split([]byte(data), partLen)</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">    buffer := bytes.NewBufferString(&quot;&quot;)</span><br><span class="line"></span><br><span class="line">    for _, chunk := range chunks &#123;</span><br><span class="line"></span><br><span class="line">        bts, err := rsa.EncryptPKCS1v15(rand.Reader, pub, chunk)</span><br><span class="line"></span><br><span class="line">        if err != nil &#123;</span><br><span class="line"></span><br><span class="line">            return nil, err</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        buffer.Write(bts)</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">    return buffer.Bytes(), nil</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">func split(buf []byte, lim int) [][]byte &#123;</span><br><span class="line"></span><br><span class="line">    var chunk []byte</span><br><span class="line"></span><br><span class="line">    chunks := make([][]byte, 0, len(buf)/lim+1)</span><br><span class="line"></span><br><span class="line">    for len(buf) &gt;= lim &#123;</span><br><span class="line"></span><br><span class="line">        chunk, buf = buf[:lim], buf[lim:]</span><br><span class="line"></span><br><span class="line">        chunks = append(chunks, chunk)</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if len(buf) &gt; 0 &#123;</span><br><span class="line"></span><br><span class="line">        chunks = append(chunks, buf[:])</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    return chunks</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><h5 id="私钥解密（分段）："><a href="#私钥解密（分段）：" class="headerlink" title="私钥解密（分段）："></a>私钥解密（分段）：</h5></li>
+</ul>
+<p><u>因对接java，故使用x509.ParsePKCS8PrivateKey()读取私钥，分段解密</u></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line">// rsaPrivateDe 解密读取秘钥</span><br><span class="line"></span><br><span class="line">func rsaPrivateDe(cryptoText string) (string, error) &#123;</span><br><span class="line"></span><br><span class="line">    block, _ := pem.Decode(privateKey)</span><br><span class="line"></span><br><span class="line">    if block == nil &#123;</span><br><span class="line"></span><br><span class="line">        return &quot;&quot;, errors.New(&quot;private key error!&quot;)</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    privInterface, err := x509.ParsePKCS8PrivateKey(block.Bytes)</span><br><span class="line"></span><br><span class="line">    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">        return &quot;&quot;, err</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    // 类型断言</span><br><span class="line"></span><br><span class="line">    priv, _ := privInterface.(*rsa.PrivateKey)</span><br><span class="line"></span><br><span class="line">    plainText, err := RsaPrivateDecrypt(priv, cryptoText)</span><br><span class="line"></span><br><span class="line">    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">        fmt.Println(&quot;RsaPrivateDecrypt error ：&quot;, err)</span><br><span class="line"></span><br><span class="line">        return &quot;&quot;, err</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    return plainText, nil</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">// RsaPrivateDecrypt 私钥解密</span><br><span class="line"></span><br><span class="line">func RsaPrivateDecrypt(priv *rsa.PrivateKey, encrypted string) (string, error) &#123;</span><br><span class="line"></span><br><span class="line">    partLen := 1024 / 8</span><br><span class="line"></span><br><span class="line">    raw, err := base64.StdEncoding.DecodeString(encrypted)</span><br><span class="line"></span><br><span class="line">    chunks := split([]byte(raw), partLen)</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">    buffer := bytes.NewBufferString(&quot;&quot;)</span><br><span class="line"></span><br><span class="line">    for _, chunk := range chunks &#123;</span><br><span class="line"></span><br><span class="line">        decrypted, err := rsa.DecryptPKCS1v15(rand.Reader, priv, chunk)</span><br><span class="line"></span><br><span class="line">        if err != nil &#123;</span><br><span class="line"></span><br><span class="line">            return &quot;&quot;, err</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        buffer.Write(decrypted)</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    return buffer.String(), err</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="GO语言RSA加签验签"><a href="#GO语言RSA加签验签" class="headerlink" title="GO语言RSA加签验签"></a>GO语言RSA加签验签</h2><ul>
+<li><h5 id="私钥加签："><a href="#私钥加签：" class="headerlink" title="私钥加签："></a>私钥加签：</h5></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">// 私钥加签</span><br><span class="line"></span><br><span class="line">func RsaSignWithSha1Hex(data string) (string, error) &#123;</span><br><span class="line"></span><br><span class="line">    block, _ := pem.Decode(privateKey)</span><br><span class="line"></span><br><span class="line">    if block == nil &#123;</span><br><span class="line"></span><br><span class="line">        return &quot;&quot;, errors.New(&quot;private key error!&quot;)</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    privInterface, err := x509.ParsePKCS8PrivateKey(block.Bytes)</span><br><span class="line"></span><br><span class="line">    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">        return &quot;&quot;, err</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    // 类型断言</span><br><span class="line"></span><br><span class="line">    priv, _ := privInterface.(*rsa.PrivateKey)</span><br><span class="line"></span><br><span class="line">    h := md5.New()  // 对接JAVA使用MD5加密（也可以使用sha1.New()进行加密，但JAVA需要使用Signature signature = Signature.getInstance(&quot;SHA1WithRSA&quot;)验签） </span><br><span class="line"></span><br><span class="line">    h.Write([]byte([]byte(data)))</span><br><span class="line"></span><br><span class="line">    hash := h.Sum(nil)</span><br><span class="line"></span><br><span class="line">    signature, err := rsa.SignPKCS1v15(rand.Reader, priv, crypto.MD5, hash[:])  // 使用MD5加签</span><br><span class="line"></span><br><span class="line">    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">        return &quot;&quot;, err</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    out := base64.StdEncoding.EncodeToString(signature)  // 加签使用base64编码，验签时需先base64解码</span><br><span class="line"></span><br><span class="line">    return out, nil</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><h5 id="公钥验签："><a href="#公钥验签：" class="headerlink" title="公钥验签："></a>公钥验签：</h5></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">func RsaVerySignWithSha1Base64(originalData, signData string) error &#123;</span><br><span class="line"></span><br><span class="line">​    sign, err := base64.StdEncoding.DecodeString(signData) // base64解码</span><br><span class="line"></span><br><span class="line">​    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">​        return err</span><br><span class="line"></span><br><span class="line">​    &#125;</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">​    //解密pem格式的公钥</span><br><span class="line"></span><br><span class="line">​    block, _ := pem.Decode(pub)</span><br><span class="line"></span><br><span class="line">​    if block == nil &#123;</span><br><span class="line"></span><br><span class="line">​        return errors.New(&quot;public key error&quot;)</span><br><span class="line"></span><br><span class="line">​    &#125;</span><br><span class="line"></span><br><span class="line">​    // 解析公钥</span><br><span class="line"></span><br><span class="line">​    pubInterface, err := x509.ParsePKIXPublicKey(block.Bytes)</span><br><span class="line"></span><br><span class="line">​    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">​        return err</span><br><span class="line"></span><br><span class="line">​    &#125;</span><br><span class="line"></span><br><span class="line">​    // 类型断言</span><br><span class="line"></span><br><span class="line">​    pub := pubInterface.(*rsa.PublicKey)</span><br><span class="line"></span><br><span class="line">​    if err != nil &#123;</span><br><span class="line"></span><br><span class="line">​        return err</span><br><span class="line"></span><br><span class="line">​    &#125;</span><br><span class="line"></span><br><span class="line">​    hash := sha1.New() // 使用SHA1算法验签</span><br><span class="line"></span><br><span class="line">​    hash.Write([]byte(originalData))</span><br><span class="line"></span><br><span class="line">​    return rsa.VerifyPKCS1v15(pub, crypto.SHA1, hash.Sum(nil), sign)</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Redis</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">RSA</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/03/19/RSA/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
   
   
-    </div></section>
+    <a href="/2018/10/30/RedisPubSub/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">RedisPubSub</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
+
+  
+
+  
 
 
           </div>
@@ -218,9 +356,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
